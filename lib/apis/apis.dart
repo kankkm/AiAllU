@@ -11,7 +11,7 @@ class APIs {
   //get answer from google gemini ai
   static Future<String> getAnswer(String question) async {
     try {
-      log('api key: $apiKey');
+      log(apiKey = 'AIzaSyBgXPd3Yo0jgc2oHsa8Y6mvF41EhYYvj_4');
 
       final model = GenerativeModel(
         model: 'gemini-1.5-flash-latest',
